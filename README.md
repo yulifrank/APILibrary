@@ -30,9 +30,11 @@ https://library/api/books
 •	עדכון פרטי הספר   
                    
  https://library/api/books/{bookId}
+
  
 •	ומחיקת ספרים.               
 https://library/api/books/{bookId}
+
  
 
 
@@ -54,8 +56,10 @@ https://library/api/members
          
  https://library/api/members/{memberId}
 
+
 •	והסרת חברים. 
 https://library/api/members/{memberId}
+
                          
 
 
