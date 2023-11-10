@@ -47,7 +47,9 @@ https://library/api/books/{bookId}
   https://library/api/members
 
 
-•	רישום חברים חדשים,                             https://library/api/members
+•	רישום חברים חדשים,                             
+https://library/api/members
+
 •	עדכון פרטי חברים    
          
  https://library/api/members/{memberId}
@@ -71,7 +73,8 @@ https://library/api/loans
 https://library/api/loans
 
 •	עדכון השאלות          
-                       https://library/api/loans/{loanId}
+                       
+https://library/api/loans/{loanId}
  
 •	החזרת ספרים -הסרתם מן היומן         
 https://library/api/loans/{loanId}
