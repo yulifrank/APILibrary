@@ -14,11 +14,13 @@ Restful API/Yael Frank
 
 יטפל בכל הפעולות הקשורות לספרים בספרייה. 
 
+
 הוא יכלול פונקציות כמו 
 
 •	שליפת ספרים מן הרשימה 
 
                         https://library/api/books
+
 
 •	הוספת ספרים חדשים לספרייה,
                   https://library/api/books
