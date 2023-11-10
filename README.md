@@ -77,7 +77,9 @@ https://library/api/members/{memberId}
 
 
 •	קבלת נתוני השאלת ספרים 
+
 https://library/api/loans
+
                                       
 •	הוספת השאלות ספרים למשתמשים,
                 
