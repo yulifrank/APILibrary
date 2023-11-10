@@ -2,6 +2,7 @@
 Restful API/Yael Frank
 
 פיתוח מערכת לניהול ספרייה
+
 ישויות:
 
 •	ספרים
@@ -19,17 +20,19 @@ Restful API/Yael Frank
 
 •	שליפת ספרים מן הרשימה 
 
-                        https://library/api/books
-
+                       
+ https://library/api/books
 
 •	הוספת ספרים חדשים לספרייה,
-                  https://library/api/books
+                  
+https://library/api/books
    
 •	עדכון פרטי הספר   
-                    https://library/api/books/{bookId}
+                   
+ https://library/api/books/{bookId}
  
-•	ומחיקת ספרים.  
-                        https://library/api/books/{bookId}
+•	ומחיקת ספרים.               
+https://library/api/books/{bookId}
  
 
 
@@ -40,12 +43,14 @@ Restful API/Yael Frank
 הוא יטפל בפונקציונליות כמו 
 
 •	קבלת רשימת החברים בספריה   
-             https://library/api/members
+           
+  https://library/api/members
 
 
 •	רישום חברים חדשים,                             https://library/api/members
 •	עדכון פרטי חברים    
-          https://library/api/members/{memberId}
+         
+ https://library/api/members/{memberId}
 
 •	והסרת חברים. 
 https://library/api/members/{memberId}
@@ -62,7 +67,8 @@ https://library/api/members/{memberId}
 https://library/api/loans
                                       
 •	הוספת השאלות ספרים למשתמשים,
-                https://library/api/loans
+                
+https://library/api/loans
 
 •	עדכון השאלות          
                        https://library/api/loans/{loanId}
