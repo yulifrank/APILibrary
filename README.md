@@ -60,10 +60,12 @@ https://library/api/members
  https://library/api/members/{memberId}
 
 
-•	והסרת חברים. 
+•	והסרת חברים.
+ 
 https://library/api/members/{memberId}
 
                          
+
 
 
 מיפוי Routes  השאלות ספרים:
@@ -79,9 +81,14 @@ https://library/api/loans
                 
 https://library/api/loans
 
-•	עדכון השאלות          
+
+•	עדכון השאלות
+          
                        
 https://library/api/loans/{loanId}
+
  
-•	החזרת ספרים -הסרתם מן היומן         
+•	החזרת ספרים -הסרתם מן היומן 
+        
 https://library/api/loans/{loanId}
+
