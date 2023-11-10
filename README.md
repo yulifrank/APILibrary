@@ -27,7 +27,8 @@ Restful API/Yael Frank
                   
 https://library/api/books
    
-•	עדכון פרטי הספר   
+•	עדכון פרטי הספר 
+  
                    
  https://library/api/books/{bookId}
 
