@@ -75,6 +75,7 @@ https://library/api/members/{memberId}
 
 הוא יכלול פונקציות כמו 
 
+
 •	קבלת נתוני השאלת ספרים 
 https://library/api/loans
                                       
