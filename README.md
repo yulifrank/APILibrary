@@ -32,7 +32,8 @@ https://library/api/books
  https://library/api/books/{bookId}
 
  
-•	ומחיקת ספרים.               
+•	ומחיקת ספרים.  
+             
 https://library/api/books/{bookId}
 
  
@@ -44,12 +45,14 @@ https://library/api/books/{bookId}
 
 הוא יטפל בפונקציונליות כמו 
 
-•	קבלת רשימת החברים בספריה   
+•	קבלת רשימת החברים בספריה
+   
            
   https://library/api/members
 
 
-•	רישום חברים חדשים,                             
+•	רישום חברים חדשים,  
+                           
 https://library/api/members
 
 •	עדכון פרטי חברים    
