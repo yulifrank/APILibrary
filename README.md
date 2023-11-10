@@ -3,17 +3,24 @@ Restful API/Yael Frank
 
 פיתוח מערכת לניהול ספרייה
 ישויות:
+
 •	ספרים
+
 •	משתמשים
+
 •	הלוואות ספרים
 
 מיפוי Routes  ספרים: 
 יטפל בכל הפעולות הקשורות לספרים בספרייה. 
 הוא יכלול פונקציות כמו 
-•	שליפת ספרים מן הרשימה                         https://library/api/books
-•	הוספת ספרים חדשים לספרייה,                  https://library/api/books   
-•	עדכון פרטי הספר                       https://library/api/books/{bookId} 
-•	ומחיקת ספרים.                          https://library/api/books/{bookId} 
+•	שליפת ספרים מן הרשימה 
+                        https://library/api/books
+•	הוספת ספרים חדשים לספרייה,
+                  https://library/api/books   
+•	עדכון פרטי הספר   
+                    https://library/api/books/{bookId} 
+•	ומחיקת ספרים.  
+                        https://library/api/books/{bookId} 
 
 
 מיפוי Routes חברים: 
