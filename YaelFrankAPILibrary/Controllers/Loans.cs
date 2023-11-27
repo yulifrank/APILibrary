@@ -9,40 +9,40 @@ namespace YaelFrankAPILibrary.Controllers
     public class Loans : ControllerBase
     {
 
-        public static List<Loan> loans  = new List<Loan>
-    {
-        new Loan { Name = "John Doe", Date = DateTime.Now },
-        new Loan { Name = "Jane Smith", Date = DateTime.Now.AddDays(-5) },
-        new Loan { Name = "Michael Johnson", Date = DateTime.Now.AddDays(-2) }
-    };
 
+
+        public static DataContext data;
+        public Loans(DataContext l)
+        {
+            data = l;
+        }
 
 
         // GET: api/<Loans>
         [HttpGet]
         public List<Loan> Get()
         {
-            return loans;
+            return data.loans;
         }
         // GET api/<Loans>/5
         [HttpGet("{id}")]
         public Loan Get(int id)
         {
-            return loans[id];
+            return data.loans[id];
         }
 
         // POST api/<Loans>
         [HttpPost]
         public void Post([FromBody] Loan value)
         {
-              loans.Add(value);
+            data.loans.Add(value);
         }
 
         // PUT api/<Loans>/5
         [HttpPut("{id}")]
         public void Put(int id, [FromBody] Loan updatedLoan)
         {
-            Loan loan = loans.Find(x => x.LoanId == id);
+            Loan loan = data.loans.Find(x => x.LoanId == id);
             if (loan != null)
             {
                 loan.Name = updatedLoan.Name;
@@ -54,7 +54,7 @@ namespace YaelFrankAPILibrary.Controllers
         [HttpDelete("{id}")]
         public void Delete(int id)
         {
-            loans.Remove(loans.Find(x => x.LoanId == id));
+            data.loans.Remove(data.loans.Find(x => x.LoanId == id));
         }
     }
 }
